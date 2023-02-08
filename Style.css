@@ -19,7 +19,12 @@
 
 }
 /* Header and navigation style */
-
+ .header{
+    background: #FFF8F3;
+    background-image: url("/images/header_bg.png"), url(images/developer.png);
+    background-repeat:no-repeat;
+    background-position: bottom right ,left;
+ }
 nav{
     display: flex;
     justify-content: space-between;
@@ -46,16 +51,75 @@ nav li{
 .banner{
     display:flex;
     align-items: center;
-    margin: 0 200px;
+    margin: 0px 1px 12px 119px;
+
 }
 
 .banner-title{
     font-weight: 700;
     font-size: 67px;
+    margin-bottom: 20px;
 
 }
 .banner-subtitle{
     font-weight: 600;
     font-size: 45px;
+    margin-bottom: 30px;
 
+}
+
+.banner-description{
+    color: rgb(64, 68, 68);
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+/* 
+main section */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* About section style */
+.about{
+    text-align: center;
+    margin-top: 130px;
+    background: #FFF8F3;
+border-radius: 10px;
+padding: 130px 150px;
+
+}
+.section-title{
+ 
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 35px;
+
+}
+.section-description{
+font-size: 18px;
+/* text-align: center; */
+color: #757575;
+margin-bottom:30px;
+
+}
+/* about container */
+.aboutinfo-continer{
+    display: flex;
+    margin-top: 27px;
+    justify-content: space-around;
+}
+.about-info{
+
+}
+.about-title{
+    color: #757575;
+    font-weight: 400;
+font-size: 20px;
+
+}
+.about-description{
+    color: #1d1b1b;
+    font-weight: 700;
+font-size: 20px;
 }
