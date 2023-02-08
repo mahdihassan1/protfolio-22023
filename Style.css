@@ -1,0 +1,61 @@
+*{
+    margin:0;
+    font-family: 'Open Sans', sans-serif;
+
+}
+.text-primary{
+    color:#FD6E0A ;
+}
+
+.btn-primary{
+    color: aliceblue;
+   font-weight: 60px;
+   border: 0;
+   padding: 18px 35px;
+    font-size: 20px;
+    border-radius: 5px;
+    background: #FD6E0A ;
+
+
+}
+/* Header and navigation style */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+     
+}
+nav li{
+    list-style: none;
+    margin-left: 50px;
+}
+.text-primary{
+    color:#FD6E0A ;
+}
+
+/* Bannar style */
+.banner{
+    display:flex;
+    align-items: center;
+    margin: 0 200px;
+}
+
+.banner-title{
+    font-weight: 700;
+    font-size: 67px;
+
+}
+.banner-subtitle{
+    font-weight: 600;
+    font-size: 45px;
+
+}
